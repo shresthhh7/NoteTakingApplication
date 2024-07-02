@@ -11,3 +11,22 @@ To run this ,You Need Python 3.7,PyMySQL Module and tkinter(inbuilt) Module.
 If you have above dependencies then import noteapp.sql file in your mysql database.
 Now run start.py file which will start your Application.
 You can search notes,sort them by alphabets or numbers and to edit them just click on the note you want to edit
+GUI
+Tkinter is used to develop the GUI of the application.Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps −
+
+Import the Tkinter module.
+Create the GUI application main window.
+Add one or more of the above-mentioned widgets to the GUI application.
+Enter the main event loop to take action against each event triggered by the user.
+Backend
+The application uses sql databases and mysql libraries to connect the databases. The backend logic is using simple CRUD operations to maintain the applications.
+
+Create
+Read
+Update
+Delete
+Workflow:
+ Create a database for notes.
+ Create the files for backend logics with basic CRUD operations.
+ Import the created files to connect them with front end.
+ Create file for GUI using Tkinter components.
